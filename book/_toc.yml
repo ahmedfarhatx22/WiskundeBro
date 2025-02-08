@@ -5,7 +5,12 @@ options:
 chapters:    # (need to edit these according to plan)
 
 
-- file: Les_serie/les_serie_intro.ipynb
+- file: kies_je_klas/kies_je_niveau.ipynb
+  
+- file: VWO/klas3/klas3_intro.ipynb
   sections:
-  - file: Les_serie/les_voorbeeld_klas3.ipynb
+    - file: VWO/klas3/HS6_2_K3.ipynb.ipynb
+        
+  
+
   
