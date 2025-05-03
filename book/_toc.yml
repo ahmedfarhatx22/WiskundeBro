@@ -4,11 +4,5 @@ root: intro
 options:
   numbered: 4        # <‑‑ fine
 chapters:
-  - file: kies_je_klas/kies_je_niveau.ipynb
 
-  - file: VWO/klas3/klas3_intro.ipynb
-    sections:
-      # ① remove the doubled extension
-      - file: VWO/klas3/HS6_2_K3.ipynb
-
-  - file: contact.ipynb
+- file: contact.ipynb
