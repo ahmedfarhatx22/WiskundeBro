@@ -1,16 +1,14 @@
+# book/_toc.yml
 format: jb-book
 root: intro
 options:
-  numbered: 4
-chapters:    # (need to edit these according to plan)
+  numbered: 4        # <‑‑ fine
+chapters:
+  - file: kies_je_klas/kies_je_niveau.ipynb
 
+  - file: VWO/klas3/klas3_intro.ipynb
+    sections:
+      # ① remove the doubled extension
+      - file: VWO/klas3/HS6_2_K3.ipynb
 
-- file: kies_je_klas/kies_je_niveau.ipynb
-  
-- file: VWO/klas3/klas3_intro.ipynb
-  sections:
-    - file: VWO/klas3/HS6_2_K3.ipynb.ipynb
-        
-  
-
-  
+  - file: contact.ipynb
