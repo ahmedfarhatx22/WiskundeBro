@@ -14,7 +14,9 @@ html:
   comments:
     hypothesis: true
 # END DRAFT
-  
+html_static_path:
+    - presentatie
+
 sphinx:
   local_extensions:
     apastyle: _ext/
@@ -26,6 +28,6 @@ sphinx:
     bibtex_reference_style: author_year_round
     bibtex_default_style: myapastyle
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    html_extra_path: ["presentatie"]
+    
 bibtex_bibfiles: 
   - references.bib
